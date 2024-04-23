@@ -1,4 +1,4 @@
-# IsoRouteMap Project
+# Isochrone & Route Generator Web App
 
 ## Project Overview
 
