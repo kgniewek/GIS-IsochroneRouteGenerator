@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>lit-ors</title>
+
+  <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+
+  <script>
+    if (!window.customElements) {
+      document.write('<!--');
+    }
+  </script>
+  <link rel="stylesheet" href="../assets/leaflet/leaflet.css">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script src="../assets/leaflet/leaflet-src.js"></script>
+  <style>
+    .leaflet-popup-content {
+      margin: 0;
+    }
+    .leaflet-popup-close-button {
+      display: none;
+    }
+  </style>
+  <!-- ! DO NOT REMOVE THIS COMMENT, WE NEED ITS CLOSING MARKER -->
+</head>
+
+<body>
+  <div id="map"></div>
+  <ors-renderer></ors-renderer>
+</body>
+
+</html>
