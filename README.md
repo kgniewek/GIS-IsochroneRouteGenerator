@@ -12,7 +12,7 @@ IsoRouteMap is a practice project developed using TypeScript in Visual Studio Co
 - **OpenStreetMap**: Serves as the base map layer providing geographical data.
 - **OpenRouteService API**: Utilized for geocoding, reverse geocoding, routing, and isochrone services, which form the core functionalities of the project.
 
-## Functionality
+### Functionality
 
 IsoRouteMap is designed with simplicity focusing more on functionality than aesthetics. The main features include:
 
@@ -21,22 +21,16 @@ IsoRouteMap is designed with simplicity focusing more on functionality than aest
 - **Dynamic Interactions**: The map panel is equipped with three tabs that allow users to switch between searching locations, planning routes, and generating isochrones.
 - **Geocoding and Reverse Geocoding**: Integrated with OpenRouteService API, it allows users to search for places and also to find names of locations by clicking on the map.
 
-## Project Structure
+### Use Case
+
+This project is particularly useful for urban planners, cyclists, and casual users who need to visualize travel times and plan routes across multiple transportation modes. It's also a tool for developers to understand the integration of various APIs with Leaflet maps in a TypeScript project.
+
+### Project Structure
 
 The project is structured into various components, each handling specific aspects of the application:
 - **ors-api**: This includes classes that handle API calls for routing, geocoding, and isochrone generation.
 - **components**: Contains UI components like maps, search bars, and panels which interact with the APIs to render the map, display routes, handle search results, and display isochrones.
 - **eventBus**: Facilitates communication between components, enabling a reactive user interface.
-
-## Use Case
-
-This project is particularly useful for urban planners, cyclists, and casual users who need to visualize travel times and plan routes across multiple transportation modes. It's also a tool for developers to understand the integration of various APIs with Leaflet maps in a TypeScript project.
-
-## Note
-
-The project lacks extensive styling and is not intended for production use in its current form. It is mainly a demonstration of technical capabilities and a learning tool for similar technologies.
-
-### Project Structure
 
 - 📁 **root**
   - `package-lock.json`
