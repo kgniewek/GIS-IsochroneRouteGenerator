@@ -32,6 +32,7 @@ The project is structured into various components, each handling specific aspect
 - **components**: Contains UI components like maps, search bars, and panels which interact with the APIs to render the map, display routes, handle search results, and display isochrones.
 - **eventBus**: Facilitates communication between components, enabling a reactive user interface.
 
+Files:
 - 📁 **root**
   - `package-lock.json`
   - `package.json`
